@@ -447,7 +447,7 @@
                 <!-- Contact Form -->
                 <div class="contact-form-wrapper">
                     <h3>Форма реєстрації</h3>
-                    <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/movnnpnq" method="POST">
                         <div class="form-group">
                             <label>Ім'я дитини *</label>
                             <input type="text" name="name" placeholder="Введіть ім'я" required>
@@ -474,6 +474,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary btn-full">Записатися на курс</button>
                     </form>
+                    <p id="status" style="margin-top:10px; font-weight:bold;"></p>
                 </div>
 
                 <!-- Contact Info -->
@@ -543,10 +544,10 @@
                     </p>
                     
                     <div class="social-links">
-                        <a href="#" class="social-link">📘</a>
-                        <a href="#" class="social-link">📷</a>
-                        <a href="#" class="social-link">🎥</a>
-                        <a href="mailto:info@itenai.com.ua" class="social-link">✉️</a>
+                        <a href="+380931480343" class="social-link">📲</a>
+                        <a href="https://www.facebook.com/yuliia.platonova.2025" class="social-link">📷</a>
+                        <a href="https://www.instagram.com/laplandia.kids/" class="social-link">🎥</a>
+                        <a href="mailto:schoolitenai@gmail.com" class="social-link">✉️</a>
                     </div>
                 </div>
 
@@ -579,8 +580,7 @@
                 <div class="footer-bottom-content">
                     <p>&copy; 2025 ItEnAi School. Всі права захищені.</p>
                     <div class="footer-legal">
-                        <a href="#">Політика конфіденційності</a>
-                        <a href="#">Умови використання</a>
+                        <a href="./privacy.html">Політика конфіденційності</a>
                     </div>
                 </div>
             </div>
@@ -588,5 +588,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="./js/form.js"></script>
 </body>
 </html>
