@@ -532,7 +532,24 @@ body {
     font-size: 14px;
     color: #374151;
 }
-
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+.footer-logos {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}
+.header-logos {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}
 .topic:hover {
     background: #f9fafb;
 }
